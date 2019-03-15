@@ -2,12 +2,19 @@
     "name": "ftp/ftp",
     "type": "library",
     "description": "test",
+    
     "homepage": "https://github.com/reyazilim/ftp",
     "license": "MIT",
+   
     "require": {
         "php": ">=5.0.0"
     },
+    
     "autoload": {
-        "classmap": ["ftp.php"]
+        "classmap": ["ftp.php"],
+        "psr-0": {
+            "Detection": "namespaced/"
+        }
     }
+    
 }
